@@ -25,8 +25,7 @@ public class Pessoa {
         this.cpf = cpf;
     }
     
-    @Override
-    public String toString() {
+    public String imprimeDadosPessoa() {
         return "Pessoa [nome=" + nome + ", idade=" + idade + ", cpf=" + cpf + "]";
     }
     

@@ -12,4 +12,8 @@ public class Aluno extends Pessoa {
         this.matricula = matricula;
     }
 
+    public String imprimeDadosPessoa() {
+        return super.imprimeDadosPessoa() + " e você é aluno";
+    }
+
 }
