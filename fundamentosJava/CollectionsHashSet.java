@@ -6,11 +6,11 @@ public class CollectionsHashSet {
     public static void main(String[] args) {
         Set<String> set = new HashSet<>();
         set.add("João Paulo");
-        set.add("Paula");
-        set.add("Jey");
-        set.remove("Jey");
+        set.add("Paulo");
+        set.add("Arthur");
+        set.remove("Arthur");
         System.out.println("Retorno de todo o set = " + set);
-        System.out.println("O set possui o nome 'Paula' = " + set.contains("Paula"));
+        System.out.println("O set possui o nome 'Paulo' = " + set.contains("Paulo"));
 
         System.out.println("\nEstrutura de FOR em um set");
         for (String value : set) {
