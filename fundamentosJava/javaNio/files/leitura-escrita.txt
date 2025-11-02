@@ -1,0 +1,1 @@
+Linha 1: Teste de leitura e escrita java N-IO 2
